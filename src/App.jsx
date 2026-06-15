@@ -142,6 +142,7 @@ function linkGoogleAgenda(titulo, data, detalhes) {
     text: titulo,
     dates: `${start}/${end}`,
     details: detalhes,
+    src: "assessoriapgmvg@gmail.com",
   });
   return `https://calendar.google.com/calendar/render?${params.toString()}`;
 }
